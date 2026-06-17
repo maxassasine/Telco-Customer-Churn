@@ -5,7 +5,7 @@ This project analyzes customer churn behavior for a telecom company using the IB
 The goal is to identify customers likely to churn and uncover the key factors driving churn, enabling the business to take proactive retention actions.
 
 ## Dataset
-- **Source:** IBM Telco Customer Churn Dataset (Kaggle)
+- **Source:** IBM Telco Customer Churn Dataset — [Download from Kaggle](https://www.kaggle.com/datasets/blastchar/telco-customer-churn)
 - **Records:** 7,043 customers | **Features:** 21 columns
 - **Target Variable:** Churn (Yes = 26.5%, No = 73.5%)
 - **Key Issue:** Class imbalance handled via `class_weight` and `scale_pos_weight`
